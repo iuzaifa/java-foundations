@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-basics/java-basics.iml" filepath="$PROJECT_DIR$/java-basics/java-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A-Java-Basics/A-Java-Basics.iml" filepath="$PROJECT_DIR$/A-Java-Basics/A-Java-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B-Java-operators/B-Java-operators.iml" filepath="$PROJECT_DIR$/B-Java-operators/B-Java-operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C-Control-Flow/C-Control-Flow.iml" filepath="$PROJECT_DIR$/C-Control-Flow/C-Control-Flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D-Arrays-Strings/D-Arrays-Strings.iml" filepath="$PROJECT_DIR$/D-Arrays-Strings/D-Arrays-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-Oops/E-Oops.iml" filepath="$PROJECT_DIR$/E-Oops/E-Oops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F-Exception-Handling/F-Exception-Handling.iml" filepath="$PROJECT_DIR$/F-Exception-Handling/F-Exception-Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G-Collections-Framework/G-Collections-Framework.iml" filepath="$PROJECT_DIR$/G-Collections-Framework/G-Collections-Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H-Java-Streams/H-Java-Streams.iml" filepath="$PROJECT_DIR$/H-Java-Streams/H-Java-Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/I-Multithreading/I-Multithreading.iml" filepath="$PROJECT_DIR$/I-Multithreading/I-Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J-JDBC/J-JDBC.iml" filepath="$PROJECT_DIR$/J-JDBC/J-JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/K-Advanced/K-Advanced.iml" filepath="$PROJECT_DIR$/K-Advanced/K-Advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-foundations.iml" filepath="$PROJECT_DIR$/.idea/java-foundations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
     </modules>
   </component>
 </project>
