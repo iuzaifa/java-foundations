@@ -1,8 +1,6 @@
 package basics.threadMethods;
 
-import basics.ThreadLifeCycle.MyThread;
-
-public class MThread {
+public class ThreadM {
 
     // For Master Thread
 
@@ -15,8 +13,8 @@ public class MThread {
         // Method 4 -> join()
 
 
-        MyThreadA a = new MyThreadA();
-        MyThreadB b = new MyThreadB();
+        ThreadA a = new ThreadA();
+        ThreadB b = new ThreadB();
 
         Thread threadA = new Thread(a);
         Thread threadB = new Thread(b);

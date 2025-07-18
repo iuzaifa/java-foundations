@@ -1,6 +1,6 @@
 package basics.threadMethods;
 
-public class MyThreadB implements Runnable {
+public class ThreadB implements Runnable {
 
     @Override
     public void run() {

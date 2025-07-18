@@ -1,4 +1,5 @@
 # java-foundation
+
 `java-foundation` is a structured learning repository covering the core concepts of Java programming. It is designed for beginners and intermediate learners.
 
 ```
@@ -65,16 +66,16 @@
 │
 ├── README.md
 
-```
 
+```
 
 To convert your folder names like `A-Java-Basics`, `B-Java-operators`, etc., into a **numbered list**, where:
 
-* A = 1
-* B = 2
-* C = 3
-* …
-* K = 11
+- A = 1
+- B = 2
+- C = 3
+- …
+- K = 11
 
 ---
 
@@ -88,7 +89,7 @@ To convert your folder names like `A-Java-Basics`, `B-Java-operators`, etc., int
 6. **F-Exception-Handling**
 7. **G-Collections-Framework**
 8. **H-Java-Streams**
-9. **I-Multithreading**
+9. **I-Multithreading** --- [Multithreading in Java – Medium Article](https://engineeringdigest.medium.com/multithreading-in-java-39f34724bbf6)
 10. **J-JDBC**
 11. **K-Advanced**
 
