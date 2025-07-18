@@ -53,7 +53,6 @@
 │   ├── ThreadBasics   -> packages
 │   ├── RunnableInterface   -> packages
 │   └── Synchronization   -> packages
-|   Notes : [Multithreading in Java – Medium Article](https://engineeringdigest.medium.com/multithreading-in-java-39f34724bbf6)
 │
 ├── 10-jdbc
 │   ├── JDBCConnection   -> packages
