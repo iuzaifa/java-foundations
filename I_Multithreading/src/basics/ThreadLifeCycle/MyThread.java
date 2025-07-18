@@ -10,7 +10,7 @@ public class MyThread implements Runnable {
 //        }
         System.out.println("Running State"); // running
         try {
-            Thread.sleep(2000);
+            Thread.sleep(2000); // /
             System.out.println("Pause for 2 SEC");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

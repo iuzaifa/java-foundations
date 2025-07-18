@@ -28,4 +28,5 @@ We use multithreading to:
 *  Handle **multiple users or requests** efficiently (e.g., in servers or games)
 
 ---
+[Multithreading in Java – Medium Article](https://engineeringdigest.medium.com/multithreading-in-java-39f34724bbf6)
 
