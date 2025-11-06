@@ -1,4 +1,4 @@
-package classesDemo;
+package concreteClassOrNormalClass;
 
 // It can Just name of The "Car"  for understanding I use Class
 public class CarClass {

@@ -1,4 +1,4 @@
-package classesDemo;
+package concreteClassOrNormalClass;
 public class Main {
     public static void main(String[] args) {
         // pass value to  Fields (State/Properties) individual without any method use
