@@ -9,6 +9,6 @@ public class Main2 {
         System.out.println("Current balance: " + myAccount.getBalance());
         myAccount.withdrawal(100.00);
         System.out.println("Current balance: " + myAccount.getBalance());
-        
+        System.out.println(myAccount.checkBalance());
     }
 }

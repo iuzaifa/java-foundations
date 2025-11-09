@@ -30,4 +30,8 @@ public class Account {
             System.out.println("withdraw amount must be positive.");
         }
     }
+
+    public double checkBalance(){
+        return balance;
+    }
 }
