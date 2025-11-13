@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerFunction {
+public class ConsumerEx {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Java", "Python", "JavaScript", "Php", "C++", "C#");
 
