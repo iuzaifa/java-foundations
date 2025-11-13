@@ -21,5 +21,14 @@ public class MainDemo {
         int sum = calculator.operate(33,77);
         calculator.printResult(sum);
         Calculator.info();
+
+
+        PrintName name = (s) -> s;
+        String n = name.printFullName("Abu Huzaifa");
+        System.out.println(n);
+
+        ConcatenateName con = (firstName, lastname) -> firstName.concat(lastname);
+        String fullName = con.concatenateName("Abu", " Huzaifa" );
+        con.printFullName(fullName);
     }
 }
