@@ -30,5 +30,10 @@ public class MainDemo {
         ConcatenateName con = (firstName, lastname) -> firstName.concat(lastname);
         String fullName = con.concatenateName("Abu", " Huzaifa" );
         con.printFullName(fullName);
+
+        new Thread(()-> System.out.println("New Thread"));
+
+
+        System.out.println("End");
     }
 }
