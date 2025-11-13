@@ -30,6 +30,10 @@ public class MethodReferences {
         };
         name.forEach(printName);
 
+        name.forEach((String n)-> {
+            System.out.println(n);
+        });
+
 
 
     }
