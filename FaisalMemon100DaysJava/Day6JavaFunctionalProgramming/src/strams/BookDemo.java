@@ -1,7 +1,9 @@
 package strams;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
@@ -26,17 +28,28 @@ public class BookDemo {
         Stream<Book> s1 = bookInventory.stream();
         Stream<Book> s1Filtered = s1.filter(predicate);
         s1Filtered.forEach(System.out::println);
-
-
-
         System.out.println("Books Less than 10 ------------------------");
+
         bookInventory.stream().filter(b -> b.getPrice() < 10)
                 .forEach(System.out::println);
         System.out.println("Books more than 10 ------------------------");
         bookInventory.stream().filter(b -> b.getPrice() > 10)
                 .forEach(System.out::println);
 
+        // 2. Mapping : Convert books titles into uppercase  ;
+        System.out.println("Convert books titles into uppercase ------------------------");
+        bookInventory.stream().map(b -> b.title.toUpperCase())
+                .forEach(System.out::println);
 
+        // 3. Sorting : Books by publication date
+        // Should be Ascending.
+        bookInventory.stream().sorted(Comparator.comparing(book -> book.publicationYear))
+                .forEach(System.out::println);
+        System.out.println("------------------------");
+        System.out.println("------------------------");
+        // Should be Descending.
+        bookInventory.stream().sorted(Comparator.comparing(Book::getPublicationYear).reversed())
+                .forEach(System.out::println);
 
 
     }
